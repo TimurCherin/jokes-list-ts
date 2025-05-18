@@ -2,7 +2,7 @@
   "name": "jokes-list-ts",
   "version": "0.1.0",
   "private": true,
-  "main": "index.js",
+  "main": "index.tsx",
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "@testing-library/dom": "^10.4.0",
@@ -28,7 +28,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "lint:js": "eslint src/**/*.{js,jsx}"        
+        "lint:js": "eslint . --ext .js,.ts"
     },
     "eslintConfig": {
         "extends": [
