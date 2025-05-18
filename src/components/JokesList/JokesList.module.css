@@ -1,0 +1,11 @@
+.jokes__list {
+  list-style: none;
+  padding: 0;
+  padding-right: 4vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 4vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 32px;
+}
